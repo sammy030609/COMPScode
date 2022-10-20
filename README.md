@@ -1,1 +1,1 @@
-# COMPScode
+# COMPS code for Sammy Sanchez
