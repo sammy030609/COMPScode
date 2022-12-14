@@ -1,4 +1,4 @@
-[sports_graph.py](#sports_graph.py Code)
+[sports_graph.py](sports_graph.py Code)
 
 # Code Architecture Overview
 
