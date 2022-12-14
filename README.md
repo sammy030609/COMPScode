@@ -1,1 +1,1 @@
-# COMPS code for Sammy Sanchez
+# Replication Instructions
