@@ -6,7 +6,7 @@ Copy the contents on the webpage and add it to a blank text file (TextEdit on Ma
 - Create a new project in PyCharm CE and add the files **sports_graph.py**, **stat_conversion.py**, and the csv file with the basketball data to the project folder
 - ![project_folder](https://raw.githubusercontent.com/sammy030609/COMPScode/main/README%20images/project_folder.png)
 
-- Next, multiple libraries need to be installed for these files to run: **pandas, dash, dash-bootstrap-components, plotly, statsmodels**. To install these, click the terminal buttom at the bottom of PyCharm and to install each library, type `pip install pandas`, `pip install dash`, etc until all of these libraries are installed. For **plotly**, use version 5.0.0 when installing which looks like `pip install plotly==5.0.0`
+- Next, multiple libraries need to be installed for these files to run: [pandas](https://pandas.pydata.org/), [dash](https://dash.plotly.com/), [dash-bootstrap-components](https://dash-bootstrap-components.opensource.faculty.ai/), [plotly](https://plotly.com/python/), [statsmodels](https://www.statsmodels.org/stable/index.html). To install these, click the terminal buttom at the bottom of PyCharm and to install each library, type `pip install pandas`, `pip install dash`, etc until all of these libraries are installed. For **plotly**, use version 5.0.0 when installing which looks like `pip install plotly==5.0.0`
 
 - Open **stat_conversion.py** and replace the csv file name with what you named the csv file of the basketball stats totals `df  =  pd.read_csv('your csv file name')`
 
