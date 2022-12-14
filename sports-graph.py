@@ -10,9 +10,7 @@ import csv
 # Source - https://www.basketball-reference.com/leagues/NBA_2022_per_game.html
 # Source - https://www.basketball-reference.com/leagues/NBA_2022_totals.html
 
-# df = pd.read_csv("https://raw.githubusercontent.com/sammy030609/COMPScode/master/stats_nba_player_data_bballref_2021-22.csv")
-
-df = pd.read_csv('fantasy_basketball_points.csv')  # reads csv file with converted fantasy points that user inputted
+df = pd.read_csv('fantasy_basketball_points.csv')  # reads csv file that was created using stat_conversion.py
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.LUX])  # dash app theme for the webpage
 mytitle = dcc.Markdown(children='# Visualization of Fantasy Basketball Stats')  # title of the web page
